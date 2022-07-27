@@ -1,26 +1,15 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	scroll-behavior: smooth;
+	font-family: "Raleway", sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.custom-img {
+	background-image: url("https://images.unsplash.com/photo-1602445470458-d67e1c9ae852?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fHBob3RvZ3JhcGh5fGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
 }
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
+/* .custom-banner1 {
+	background-image: url("https://images.unsplash.com/photo-1602445470458-d67e1c9ae852?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fHBob3RvZ3JhcGh5fGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
+} */
