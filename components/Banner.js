@@ -8,12 +8,12 @@ import PictureThree from "../assets/Rectangle 12.png";
 
 const Banner = () => {
 	return (
-		<section className="grid place-items-center min-h-screen">
+		<section className="grid place-items-center min-h-screen sm:p-12">
 			<div className="grid gap-4 p-4 max-w-5xl sm:grid-cols-4 sm:mt-12">
 				<h3 className="text-3xl font-extrabold sm:col-span-2 sm:place-self-end">
 					Where creative process happens
 				</h3>
-				<p className="row-start-2 sm:col-span-2">
+				<p className="row-start-2 text-sm sm:col-span-2">
 					Your creativity, our inspiration. Whatever your story, set it free
 				</p>
 				<div className="relative h-32 bg-red-500 sm:col-span-2 sm:h-auto sm:aspect-video">
@@ -44,13 +44,13 @@ const Banner = () => {
 				</div>
 			</div>
 			<div className="grid gap-4 p-4 max-w-5xl sm:grid-cols-4 sm:text-right sm:mt-1">
-				<button className="capitalize text-md sm:col-start-4 sm:place-self-end sm:row-start-2 ">
+				{/* <button className="px-8 py-4 border rounded-lg capitalize text-md w-1/2 place-self-center sm:col-start-3 sm:col-span-2 sm:place-self-end sm:row-start-2">
 					get to know us
-				</button>
-				<h3 className="text-3xl font-extrabold sm:col-span-3 sm:place-self-start sm:col-start-2 sm:row-start-2">
+				</button> */}
+				<h3 className="text-3xl font-extrabold sm:col-span-3 sm:place-self-start sm:col-start-2 sm:row-start-2 sm:ml-10">
 					Where creative process happens
 				</h3>
-				<p className="row-start-2 sm:col-span-3 sm:col-start-2 sm:row-start-2 sm:place-self-center sm:mt-20 sm:mb-16 sm:pl-32">
+				<p className="row-start-2 text-sm sm:col-span-3 sm:col-start-2 sm:row-start-2 sm:place-self-center sm:mt-24 sm:mb-12 sm:pl-32">
 					Your creativity, our inspiration. Whatever your story, set it free
 				</p>
 				<div className="relative h-32 bg-zinc-500 sm:col-span-3 sm:h-auto sm:aspect-video sm:row-start-1 sm:col-start-2">
