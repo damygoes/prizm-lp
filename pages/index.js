@@ -1,9 +1,11 @@
 import Head from "next/head";
-import Image from "next/image";
 import Banner from "../components/Banner";
+import Contact from "../components/Contact";
+import Gallery from "../components/Gallery";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Reason from "../components/Reason";
+import Team from "../components/Team";
 import Work from "../components/Work";
 
 export default function Home() {
@@ -22,7 +24,10 @@ export default function Home() {
 				/>
 				<Banner />
 				<Reason />
+				<Gallery />
 				<Work />
+				<Team />
+				<Contact />
 			</>
 		</main>
 	);
