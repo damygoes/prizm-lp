@@ -17,7 +17,7 @@ const Reason = () => {
 				<div className="flex flex-col gap-2 my-12 lg:flex-row lg:justify-between lg:w-full lg:items-center lg:px-24">
 					<div className="flex flex-col gap-2 items-center justify-center">
 						<div className="p-4 rounded-full bg-gray-900 h-20 ">
-							<Image src={Gallery} />
+							<Image src={Gallery} alt="/" />
 						</div>
 						<div className="flex flex-col items-center justify-center gap-2 mb-6">
 							<p className="capitalize font-normal text-xl">professional editing</p>
@@ -28,7 +28,7 @@ const Reason = () => {
 					</div>
 					<div className="flex flex-col gap-2 items-center justify-center">
 						<div className="p-4 rounded-full bg-gray-900 h-20">
-							<Image src={Diaphragm} />
+							<Image src={Diaphragm} alt="/" />
 						</div>
 						<div className="flex flex-col items-center justify-center gap-2 mb-6">
 							<p className="capitalize font-normal text-xl">long hour shoots</p>
@@ -39,7 +39,7 @@ const Reason = () => {
 					</div>
 					<div className="flex flex-col gap-2 items-center justify-center">
 						<div className="p-4 rounded-full bg-gray-900 h-20">
-							<Image src={Camera} />
+							<Image src={Camera} alt="/" />
 						</div>
 						<div className="flex flex-col items-center justify-center gap-2 mb-6">
 							<p className="capitalize font-normal text-xl">extensive equipment</p>
