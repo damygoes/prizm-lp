@@ -9,11 +9,13 @@ import {
 
 const Footer = () => {
 	return (
-		<div className="flex flex-col justify-evenly items-center w-full mt-36 z-[2] text-white text-center">
-			<div className="mb-12">
-				<h4 className="text-2xl font-bold mb-2">PRIZM</h4>
-				<p className="font-light text-sm px-8">
-					Moon Street Light Avenue, 14/05 Jupiter, JP 80630
+		<div className="flex flex-col justify-evenly items-center w-full mt-36 px-8 py-10 z-[2] text-white text-center">
+			<div className="mb-8">
+				<Link href="/">
+					<h4 className="text-xl font-bold mb-2 cursor-pointer">PRIZM</h4>
+				</Link>
+				<p className="font-light text-sm px-4">
+					Moon Street Light Avenue, Jupiter, JP 80630
 				</p>
 			</div>
 			<div className="flex justify-center items-center gap-6 w-full">

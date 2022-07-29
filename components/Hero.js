@@ -9,7 +9,7 @@ const Hero = ({ heading, subheading }) => {
 		>
 			{/* Overlay */}
 			<div className="absolute top-0 left-0 right-0 bottom-0 bg-black/70 z-[2]" />
-			<div className="p-5 text-white z-[2] mt-[-10rem]">
+			<div className="flex flex-col justify-center items-center p-5 text-white z-[2] mt-8">
 				<h2 className="text-3xl font-bold lg:text-4xl">{heading}</h2>
 				<p className="py-5 text-lg font-thin mb-12">{subheading}</p>
 

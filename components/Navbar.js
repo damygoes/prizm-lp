@@ -37,9 +37,12 @@ const Navbar = () => {
 						PRIZM
 					</h1>
 				</Link>
-				<ul style={{ color: `${textColor}` }} className="hidden sm:flex">
+				<ul style={{ color: `${textColor}` }} className="hidden lg:flex">
 					<li className="p-4">
 						<Link href="/">Home</Link>
+					</li>
+					<li onClick={handleNav} className="p-4">
+						<Link href="/#services">Our Services</Link>
 					</li>
 					<li className="p-4">
 						<Link href="/#gallery">Gallery</Link>
@@ -47,13 +50,16 @@ const Navbar = () => {
 					<li className="p-4">
 						<Link href="/#work">Work</Link>
 					</li>
+					<li onClick={handleNav} className="p-4">
+						<Link href="/#team">Our Team</Link>
+					</li>
 					<li className="p-4">
 						<Link href="/#contact">Contact</Link>
 					</li>
 				</ul>
 
 				{/* Mobile Button */}
-				<div onClick={handleNav} className="block sm:hidden z-10">
+				<div onClick={handleNav} className="block z-10 visible lg:invisible">
 					{nav ? (
 						<AiOutlineClose size={20} style={{ color: `${textColor}` }} />
 					) : (
@@ -64,21 +70,27 @@ const Navbar = () => {
 				<div
 					className={
 						nav
-							? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300"
-							: "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300"
+							? "absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300 lg:hidden"
+							: "absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300 lg:hidden"
 					}
 				>
 					<ul>
-						<li onClick={handleNav} className="p-4 text-4xl hover:text-blue-500">
+						<li onClick={handleNav} className="p-4 text-2xl hover:text-blue-500">
 							<Link href="/#home">Home</Link>
 						</li>
-						<li onClick={handleNav} className="p-4 text-4xl hover:text-blue-500">
+						<li onClick={handleNav} className="p-4 text-2xl hover:text-blue-500">
+							<Link href="/#services">Our Services</Link>
+						</li>
+						<li onClick={handleNav} className="p-4 text-2xl hover:text-blue-500">
 							<Link href="/#gallery">Gallery</Link>
 						</li>
-						<li onClick={handleNav} className="p-4 text-4xl hover:text-blue-500">
+						<li onClick={handleNav} className="p-4 text-2xl hover:text-blue-500">
 							<Link href="/#work">Work</Link>
 						</li>
-						<li onClick={handleNav} className="p-4 text-4xl hover:text-blue-500">
+						<li onClick={handleNav} className="p-4 text-2xl hover:text-blue-500">
+							<Link href="/#team">Our Team</Link>
+						</li>
+						<li onClick={handleNav} className="p-4 text-2xl hover:text-blue-500">
 							<Link href="/#contact">Contact</Link>
 						</li>
 					</ul>

@@ -6,56 +6,65 @@ import Member3 from "../assets/Rectangle 29.png";
 
 const Team = () => {
 	return (
-		<div className="flex flex-col justify-center items-center gap-2 h-screen w-screen mt-24 md:justify-start md:p-12 lg:justify-start lg:p-12">
-			<div className="flex flex-col justify-center items-start lg:mb-24">
-				<span className="uppercase text-blue-700 font-medium text-base mb-1 ">
+		<div
+			id="team"
+			className="flex flex-col justify-start items-center gap-4 h-screen w-screen md:justify-start md:p-12 lg:justify-start lg:p-12"
+		>
+			<div className="flex flex-col justify-center items-start mt-48 sm:mt-40 md:mt-16 lg:mb-16 lg:mt-44">
+				<span className="uppercase text-blue-700 font-medium mb-1 text-sm sm:text-base md:text-semibold md:text-xl">
 					our staff
 				</span>
-				<p className="capitalize text-blue-900 font-bold text-3xl">
+				<p className="capitalize text-blue-900 font-bold text-2xl sm:text-3xl md:text-4xl">
 					the best team ever
 				</p>
 			</div>
-			<div className="flex flex-col justify-start items-center md:flex-row md:justify-evenly md:w-full md:gap-6 lg:flex-row lg:justify-evenly lg:w-full">
-				<div className="relative text-center w-64 mb-4 mt-16 md:mt-60 lg:mt-56">
+			<div className="gap-16 mt-0 flex flex-col justify-start items-center sm:gap-4 md:justify-evenly md:w-full md:gap-8 lg:grid lg:grid-cols-3 lg:place-items-center">
+				<div className="relative text-center w-48 h-48 mt-16 mb-16 sm:h-64 sm:w-64 sm:mt-10 md:mt-16 lg:col-start-1 lg:mt-96 xl:h-96 xl:w-96">
 					<Image
 						src={Member1}
 						alt="photographer"
-						className="w-full h-full bg-slate-400 rounded-tr-[100px] rounded-bl-3xl"
+						className="w-full h-full bg-slate-400 rounded-tr-[50px] rounded-bl-xl sm:rounded-tr-[100px] sm:rounded-bl-3xl"
 						layout="responsive"
 					/>
-					<div className="flex flex-col justify-center items-start mt-4">
-						<p className="capitalize text-xl font-semibold text-blue-900">
+					<div className="flex flex-col justify-center items-start mt-2">
+						<p className="capitalize text-base font-semibold text-blue-900 sm:text-xl ">
 							jake johnson
 						</p>
-						<p className="capitalize text-sm font-extralight">photographer</p>
+						<p className="capitalize text-xs font-extralight sm:text-sm">
+							photographer
+						</p>
 					</div>
 				</div>
-				<div className="relative text-center w-64 my-8 md:mt-36 lg:mb-14">
+				<div className="relative text-center w-48 h-48 mb-16 sm:h-64 sm:w-64 md:mt-0 lg:col-start-2 lg:mb-14 xl:h-96 xl:w-96">
 					<Image
 						src={Member2}
 						alt="photographer"
-						className="w-full h-full bg-yellow-100 rounded-tl-[100px] rounded-br-3xl"
+						className="w-full h-full bg-yellow-100 rounded-tl-[50px] rounded-br-xl sm:rounded-tl-[100px] sm:rounded-br-3xl"
 						layout="responsive"
 					/>
-					<div className="flex flex-col justify-center items-start mt-4">
-						<p className="capitalize text-xl font-semibold text-blue-900">
+					<div className="flex flex-col justify-center items-start mt-2">
+						<p className="capitalize text-base font-semibold text-blue-900 sm:text-xl ">
 							nick trufello
 						</p>
-						<p className="capitalize text-sm font-extralight">photographer</p>
+						<p className="capitalize text-xs font-extralight sm:text-sm">
+							photographer
+						</p>
 					</div>
 				</div>
-				<div className="relative text-center w-64 my-8 md:mt-0 lg:mb-12">
+				<div className="relative text-center w-48 h-48 sm:h-64 sm:w-64 md:mt-0 lg:col-start-3 lg:mb-96 xl:h-96 xl:w-96">
 					<Image
 						src={Member3}
 						alt="photographer"
-						className="w-full h-full bg-red-900 rounded-tl-[100px] rounded-tr-[100px]"
+						className="w-full h-full bg-red-900 rounded-tl-[50px] rounded-tr-[50px] sm:rounded-tl-[100px] sm:rounded-tr-[100px]"
 						layout="responsive"
 					/>
-					<div className="flex flex-col justify-center items-start mt-4">
-						<p className="capitalize text-xl font-semibold text-blue-900">
-							sierra gonzalez
+					<div className="flex flex-col justify-center items-start mt-2">
+						<p className="capitalize text-base font-semibold text-blue-900 sm:text-xl">
+							sierra jones
 						</p>
-						<p className="capitalize text-sm font-extralight">photographer</p>
+						<p className="capitalize text-xs font-extralight sm:text-sm">
+							photographer
+						</p>
 					</div>
 				</div>
 			</div>

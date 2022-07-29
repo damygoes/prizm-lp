@@ -22,12 +22,12 @@ const Gallery = () => {
 	return (
 		<section
 			id="gallery"
-			className="flex flex-col justify-center items-center gap-8 max-w-[1240px] h-screen mx-auto p-2 sm:p-10 sm:gap-12 md:p-20 md:gap-16 lg:gap-8"
+			className="flex flex-col justify-start items-center gap-12 max-w-[1240px] h-screen mx-auto p-2 sm:p-10 sm:gap-12 md:p-20 md:gap-16 lg:gap-8"
 		>
-			<h1 className="self-start text-2xl capitalize font-bold p-4 mt-24 lg:mt-48">
+			<h1 className="self-start text-2xl capitalize font-bold p-4 mt-28 mb-0">
 				gallery
 			</h1>
-			<div className="relative flex justify-center items-center mb-24 p-8 sm:p-4 sm:mb-4 md:8 lg:p-10 ">
+			<div className="relative flex justify-center items-center mb-24 mt-[-2rem] p-8 sm:p-4 sm:mb-4 md:8 lg:p-10 ">
 				{GalleryData.map((slide, index) => {
 					return (
 						<div

@@ -20,11 +20,11 @@ const Contact = () => {
 	return (
 		<section
 			id="contact"
-			className="flex flex-col justify-start items-center min-h-screen mt-26 mb-12 gap-4 relative px-12 custom-img4 sm:px-16 md:px-20 lg:px-48 xl:px-60"
+			className="flex flex-col justify-start items-center min-h-screen mt-26 mb-0 gap-4 relative px-10 custom-img4 sm:px-16 md:px-20 lg:px-48 xl:px-60"
 		>
 			{/* Overlay */}
 			<div className="absolute top-0 left-0 right-0 bottom-0 bg-black/60 z-[2]" />
-			<div className="flex mt-32 z-[2] text-white text-4xl font-semibold mb-12">
+			<div className="flex mt-32 z-[2] text-white text-4xl font-semibold mb-12 lg:mt-52">
 				<span>CONTACT</span>
 				<span className="text-blue-900 ml-2">US</span>
 			</div>

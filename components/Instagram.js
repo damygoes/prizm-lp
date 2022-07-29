@@ -11,7 +11,7 @@ import InstagramImages from "./InstagramImages";
 
 const Instagram = () => {
 	return (
-		<div className="flex flex-col justify-start items-center text-center mb-24 sm:w-1/2 md:w-2/3 lg:w-full ">
+		<div className="flex flex-col justify-start items-center text-center mb-0 mt-0 sm:w-1/2 sm:mt-0 md:w-2/3 lg:w-full ">
 			<p className="text-sm font-light w-full lg:text-xl">
 				see more on Instagram
 				<Link href="https://www.instagram.com/damy.goes/">
@@ -21,7 +21,7 @@ const Instagram = () => {
 						</span>
 					</a>
 				</Link>
-				<div className="grid grid-cols-2 mt-8 px-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-2 ">
+				<div className="grid grid-cols-2 mt-8 px-8 gap-2 place-items-center sm:grid-cols-2 sm:gap-4 sm:p-0 md:grid-cols-3 lg:grid-cols-4 lg:gap-4 xl:grid-cols-8">
 					<InstagramImages igImage={One} />
 					<InstagramImages igImage={Two} />
 					<InstagramImages igImage={Three} />
