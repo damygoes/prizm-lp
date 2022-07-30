@@ -8,9 +8,9 @@ const Team = () => {
 	return (
 		<div
 			id="team"
-			className="flex flex-col justify-start items-center gap-4 h-screen w-screen md:justify-start md:p-12 lg:justify-start lg:p-12"
+			className="flex flex-col justify-start items-center gap-2 mb-24 min-h-screen w-screen md:justify-start md:p-12 lg:justify-start lg:p-24"
 		>
-			<div className="flex flex-col justify-center items-start mt-48 sm:mt-40 md:mt-16 lg:mb-16 lg:mt-44">
+			<div className="flex flex-col justify-center items-start mt-32 sm:mt-40 md:mt-16 lg:mb-16 lg:mt-44">
 				<span className="uppercase text-blue-700 font-medium mb-1 text-sm sm:text-base md:text-semibold md:text-xl">
 					our staff
 				</span>
@@ -18,8 +18,8 @@ const Team = () => {
 					the best team ever
 				</p>
 			</div>
-			<div className="gap-16 mt-0 flex flex-col justify-start items-center sm:gap-4 md:justify-evenly md:w-full md:gap-8 lg:grid lg:grid-cols-3 lg:place-items-center">
-				<div className="relative text-center w-48 h-48 mt-16 mb-16 sm:h-64 sm:w-64 sm:mt-10 md:mt-16 lg:col-start-1 lg:mt-96 xl:h-96 xl:w-96">
+			<div className="gap-16 mt-0 flex flex-col justify-start items-center sm:gap-4 md:justify-evenly md:w-full md:gap-16 lg:grid lg:grid-cols-3 lg:place-items-center xl:p-12">
+				<div className="relative text-center w-48 h-48 mt-16 mb-8 sm:h-64 sm:w-64 sm:mt-10 md:mt-16 lg:col-start-1 lg:mt-96 xl:h-72 xl:w-72">
 					<Image
 						src={Member1}
 						alt="photographer"
@@ -35,7 +35,7 @@ const Team = () => {
 						</p>
 					</div>
 				</div>
-				<div className="relative text-center w-48 h-48 mb-16 sm:h-64 sm:w-64 md:mt-0 lg:col-start-2 lg:mb-14 xl:h-96 xl:w-96">
+				<div className="relative text-center w-48 h-48 mb-4 sm:h-64 sm:w-64 md:mt-0 md:mb-8 lg:col-start-2 lg:mb-14 xl:h-72 xl:w-72">
 					<Image
 						src={Member2}
 						alt="photographer"
@@ -51,7 +51,7 @@ const Team = () => {
 						</p>
 					</div>
 				</div>
-				<div className="relative text-center w-48 h-48 sm:h-64 sm:w-64 md:mt-0 lg:col-start-3 lg:mb-96 xl:h-96 xl:w-96">
+				<div className="relative text-center w-48 h-48 sm:h-64 sm:w-64 md:mt-0 lg:col-start-3 lg:mb-96 xl:h-72 xl:w-72">
 					<Image
 						src={Member3}
 						alt="photographer"

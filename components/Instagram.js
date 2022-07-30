@@ -12,7 +12,7 @@ import InstagramImages from "./InstagramImages";
 const Instagram = () => {
 	return (
 		<div className="flex flex-col justify-start items-center text-center mb-0 mt-0 sm:w-1/2 sm:mt-0 md:w-2/3 lg:w-full ">
-			<p className="text-sm font-light w-full lg:text-xl">
+			<div className="text-sm font-light w-full lg:text-xl">
 				see more on Instagram
 				<Link href="https://www.instagram.com/damy.goes/">
 					<a target="_blank">
@@ -31,7 +31,7 @@ const Instagram = () => {
 					<InstagramImages igImage={Seven} />
 					<InstagramImages igImage={Eight} />
 				</div>
-			</p>
+			</div>
 		</div>
 	);
 };

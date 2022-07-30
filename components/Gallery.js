@@ -22,7 +22,7 @@ const Gallery = () => {
 	return (
 		<section
 			id="gallery"
-			className="flex flex-col justify-start items-center gap-12 max-w-[1240px] h-screen mx-auto p-2 sm:p-10 sm:gap-12 md:p-20 md:gap-16 lg:gap-8"
+			className="flex flex-col justify-start items-center gap-12 max-w-[1240px] min-h-screen mx-auto mb-12 p-2 sm:p-10 sm:gap-12 md:p-20 md:gap-16 lg:gap-8"
 		>
 			<h1 className="self-start text-2xl capitalize font-bold p-4 mt-28 mb-0">
 				gallery

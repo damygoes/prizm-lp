@@ -9,7 +9,7 @@ const Work = () => {
 	return (
 		<section
 			id="work"
-			className="relative flex flex-col justify-center items-center min-h-screen mt-26 gap-4 pb-10 custom-img3 sm:grid sm:place-items-center sm:px-24 sm:mt-50 md:grid-cols-4 md:gap-1 md:px-24 md:mt-96 lg:mt-56 lg:px-24 lg:py-20 xl:px-40"
+			className="relative flex flex-col justify-center items-center min-h-screen mt-26 mb-12 gap-4 pb-10 custom-img3 sm:grid sm:place-items-center sm:px-24 sm:mt-50 md:grid-cols-4 md:gap-1 md:px-24 md:mt-96 lg:mt-56 lg:px-24 lg:py-20 xl:px-40"
 		>
 			{/* Overlay */}
 			<div className="absolute top-0 left-0 right-0 bottom-0 bg-black/60 z-[2]" />
@@ -19,13 +19,13 @@ const Work = () => {
 					an event planning company
 				</span>
 			</h4>
-			<p className="font-thin text-sm px-12 sm:col-span-2 z-[2] text-white sm:place-self-start sm:mt-8 sm:mb-12 md:row-start-1 md:col-span-2 md:place-self-center md:col-start-1 md:mt-96 md:p-0 lg:text-lg lg:mt-52">
+			<p className="font-thin text-sm px-12 sm:col-span-2 z-[2] text-white sm:place-self-start sm:mt-8 sm:mb-12 md:row-start-1 md:col-span-2 md:place-self-center md:col-start-1 md:mt-[32rem] md:p-0 lg:text-lg lg:mt-52">
 				Your creativity, our inspiration. Whatever your story, set it free. Your
 				creativity, our inspiration. Whatever your story, set it free. Your
 				creativity, our inspiration.
 			</p>
 			<Link href="/#contact">
-				<button className="px-8 py-4 border rounded-lg mt-8 z-[2] text-white cursor-pointer hover:bg-blue-500 hover:border-none sm:mt-[-52rem] sm:place-self-start sm:ml-12 md:col-start-1 md:row-start-2 md:place-self-start md:mt-[-10rem] md:ml-0 md:col-span-2 lg:mt-[-4rem]">
+				<button className="px-8 py-4 border rounded-lg mt-8 z-[2] text-white cursor-pointer hover:bg-blue-500 hover:border-none sm:mt-[-52rem] sm:place-self-start sm:ml-12 md:col-start-1 md:row-start-2 md:place-self-start md:mt-[-1rem] md:ml-0 md:col-span-2 lg:mt-0rem">
 					Get in Touch
 				</button>
 			</Link>
@@ -39,7 +39,7 @@ const Work = () => {
 					className="object-contain sm:object-cover sm:object-top"
 				/>
 			</div>
-			<div className="relative h-64 bg-blue-50 rounded-xl w-3/4 z-[2] sm:w-11/12 sm:col-start-1 sm:row-start-4 sm:place-self-start sm:mt-[-5rem] sm:aspect-square md:col-start-1 md:row-start-1 md:col-span-3 md:w-full md:place-self-center lg:row-start-1 lg:mt-24 lg:col-span-3 lg:place-self-start xl:place-self-center">
+			<div className="relative h-64 bg-blue-50 rounded-xl w-3/4 z-[2] sm:w-11/12 sm:col-start-1 sm:row-start-4 sm:place-self-start sm:mt-[-5rem] sm:aspect-square md:col-start-1 md:row-start-1 md:col-span-3 md:w-full md:place-self-center md:mt-12 lg:row-start-1 lg:mt-24 lg:col-span-3 lg:place-self-start xl:place-self-center">
 				{/* pink */}
 				<Image
 					src={FlowerTwo}
@@ -49,7 +49,7 @@ const Work = () => {
 					className="object-contain sm:object-cover sm:object-top md:object-top"
 				/>
 			</div>
-			<div className="relative h-64 w-3/4 bg-blue-50 rounded-xl z-[2]  sm:w-full sm:col-start-2 sm:row-start-4 sm:place-self-start sm:mt-[-5rem] sm:aspect-square md:col-start-1 md:row-start-2 md:col-span-3 md:w-full md:place-self-start lg:mt-52 lg:col-start-1 lg:col-span-7 xl:h-96 xl:aspect-square xl:place-self-center">
+			<div className="relative h-64 w-3/4 bg-blue-50 rounded-xl z-[2]  sm:w-full sm:col-start-2 sm:row-start-4 sm:place-self-start sm:mt-[-5rem] sm:aspect-square md:col-start-1 md:row-start-2 md:col-span-3 md:w-full md:place-self-start md:mt-24 lg:mt-52 lg:col-start-1 lg:col-span-7 xl:h-96 xl:aspect-square xl:place-self-center">
 				<Image
 					src={FlowerThree}
 					alt="flower"
